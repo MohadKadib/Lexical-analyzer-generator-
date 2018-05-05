@@ -1,0 +1,14 @@
+letter =a-z|A-Z
+digit =0-9
+digits =digit#
+{ p&r&o&g&r&a&m v&a&r i&n&t&e&g&e&r }
+num :digit#|digit#&.&digit#&($|E&digit#)
+relop :=|<&>|>|>&=|<|<&=
+assign ::&=
+{ r&e&a&l b&e&g&i&n e&n&d i&f e&l&s&e t&h&e&n w&h&i&l&e d&o r&e&a&d w&r&i&t&e }
+addop :+|-
+mulop :*|/
+incop :+&+
+decop :-&-
+[ : ; , . ( ) ]
+id :letter&(letter|digit)@
